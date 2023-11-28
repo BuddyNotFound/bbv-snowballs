@@ -23,7 +23,7 @@ CreateThread(function()
 end)
 
 function Main:LoadanimDict(animDict) -- Load Anim
-    local Anim = model
+    local Anim = animDict
     RequestAnimDict(animDict)
     while not HasAnimDictLoaded(animDict) do
       Wait(0)
