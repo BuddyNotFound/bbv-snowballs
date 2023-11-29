@@ -2,7 +2,8 @@ Main = {
     AnimDict = 'anim@mp_snowball',
     AnimName = 'pickup_snowball'
 }
-RegisterKeyMapping("snowball","Select shooting style","keyboard","G")
+
+RegisterKeyMapping("snowball","Take SnowBall !","keyboard","G")
 
 RegisterCommand('snowball',function()
     Main:LoadanimDict(Main.AnimDict)
