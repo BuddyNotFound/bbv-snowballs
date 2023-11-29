@@ -1,5 +1,4 @@
 Main = {
-    Wait = 2000,
     AnimDict = 'anim@mp_snowball',
     AnimName = 'pickup_snowball'
 }
