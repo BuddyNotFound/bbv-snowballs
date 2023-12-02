@@ -20,3 +20,11 @@ function Main:LoadanimDict(animDict) -- Load Anim
     end
 end
 
+CreateThread(function()
+    while true do
+        Wait(0)
+        if GetSelectedPedWeapon(PlayerPedId()) == GetHashKey('WEAPON_SNOWBALL') then
+            SetPlayerWeaponDamageModifier(PlayerId(), 0.0)
+        end
+    end
+end)
